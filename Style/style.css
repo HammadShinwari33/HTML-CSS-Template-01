@@ -1,0 +1,741 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =====================navbar==================== */
+
+nav{
+    height: 80px;
+    background-color: rgb(13, 14, 68);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav .logo{
+    font-size: 33px;
+    color: #fff;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+   margin: 5px; 
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 10px 8px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover,
+nav ul li a.active{
+    color: rgb(0, 255, 255);
+}
+nav .menu-btn i{
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+#click{
+    display: none;
+}
+.nav-btn{
+    background-color: #ee5959;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: orange;
+    font-size: 17px;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    border: 2px solid #ee5959;
+    background: transparent;
+}
+
+/* ================== banner ===================== */
+
+.container-1{
+    background-color: rgb(13, 14, 68);
+    height: 45vw;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.h1{
+    color: #fff;
+    font-size: 3.5vw;
+    font-weight: 500;
+}
+.p{
+    color: grey;
+    padding-top: 1vw;
+}
+.button{
+    text-align: center;
+    padding-top: 3vw;
+}
+.btn{
+    padding: 12px 20px;
+    color: rgb(255, 196, 0);
+    background-color: rgb(253, 72, 103);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: 0.3s ease-in-out;
+    color: #fff;
+}
+
+/* ================== cards ===================== */
+
+.c2-image{
+    display: flex;
+    text-align: center;
+    padding-top: 5vw;
+    justify-content: center;
+}
+.c2-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2vw;
+}
+.c-h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 3vw;
+}
+.c-p{
+    padding: 1vw 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b3a6a6;
+}
+.c2-cards{
+    display: flex;
+    gap: 5vw;
+    padding: 4vw 10vw;
+    text-align: center;
+}
+.c-card-h1{
+    color: rgb(255, 196, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+.c-card-p{
+    padding-top: 1.5vw;
+    color: #837e7e;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.icon{
+    font-size: 5vw;
+    padding: 1vw 0;
+    color: aqua;
+}
+
+/* =========================== Work Cards ============================= */
+
+.container-3{
+    background: #f5f1f1;
+}
+.c3-image{
+    display: flex;
+    text-align: center;
+    padding-top: 5vw;
+    justify-content: center;
+}
+.c3-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2vw;
+}
+.c3-cards{
+    padding: 3vw 0;
+    gap: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.c3-img{
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    cursor: pointer;
+    border: 6px solid #fff;
+}
+.c3-button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5vw;
+}
+.c3-btn{
+    padding: 12px 20px;
+    color: rgb(238, 184, 5);
+    background-color: rgb(253, 72, 103);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.c3-btn:hover{
+    transition: 0.3s ease-in-out;
+    color: #fff;
+}
+
+/* ======================== About =========================== */
+
+.c4-image{
+    display: flex;
+    text-align: center;
+    padding-top: 5vw;
+    justify-content: center;
+}
+.c4-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2vw;
+}
+.c3-top-p{
+    padding: 2vw 30vw 4vw 30vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;
+    color: #837e7e;
+}
+.c4-about{
+    padding: 3vw 6vw 5vw 6vw;
+    display: flex;
+    gap: 4vw;
+}
+.c4-a-h1{
+    padding-top: 1vw;
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.c4-a-p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1vw;
+    font-size: 1.5vw;
+    color: #837e7e;
+}
+.c4-a-p1{
+    padding-top: 1vw;
+    font-size: 1.5vw;
+    color: #837e7e;
+}
+.c4-a-button{
+    padding-top: 2vw;
+    display: flex;
+}
+.c4-a-btn{
+    padding: 12px 18px;
+    color: rgb(255, 196, 0);
+    background-color: rgb(253, 72, 103);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.c4-a-btn:hover{
+    transition: 0.3s ease-in-out;
+    color: #fff;
+}
+.c4-a-img{
+    width: 600px;
+    height: 300px;
+}
+
+/* ====================== Team ======================= */
+
+.container-5{
+    background: #f5f1f1;
+    padding-bottom: 3vw;
+}
+.c5-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 4vw;
+}
+.c5-h1{
+    color: rgb(255, 174, 0);
+    font-size: 2.5vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.c5-p{
+    padding: 1vw 8vw;
+    color: #746f6f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.c5-img{
+    width: 250px;
+    height: 270px;
+}
+.c5-cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3vw 0;
+    text-align: center;
+    justify-content: center;
+    gap: 2vw;
+}
+.c5-card{
+    background: rgb(0, 225, 255);
+}
+.c5-h2{
+    background-color: rgb(0, 225, 255);
+    color: #fff;
+    padding: 1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ====================== Tech ======================= */
+
+.container-6{
+    padding: 5vw 0;
+}
+.tech-img{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 5vw;
+    padding: 0 3vw;
+}
+
+/* ====================== Project ======================= */
+
+.container-7{
+    background-color: rgb(13, 14, 68);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 3vw;
+}
+.c7-h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.c7-p{
+    padding-top: 2vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.c7-button{
+    padding: 3vw 0 4vw 0;
+}
+.c7-btn{
+    padding: 12px 20px;
+    color: rgb(255, 196, 0);
+    background-color: rgb(253, 72, 103);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.c7-btn:hover{
+    transition: 0.3s ease-in-out;
+    color: #fff;
+}
+
+/* ====================== Blog ======================= */
+
+.c8-image{
+    display: flex;
+    text-align: center;
+    padding-top: 5vw;
+    justify-content: center;
+}
+.c8-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2vw;
+}
+.c8-h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 3vw;
+}
+.c8-p{
+    padding: 1vw 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b3a6a6;
+}
+.c8-button{
+    text-align: center;
+    padding-bottom: 4vw;
+}
+.c8-btn{
+    padding: 12px 20px;
+    color: rgb(255, 196, 0);
+    background-color: rgb(253, 72, 103);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.c8-btn:hover{
+    transition: 0.3s ease-in-out;
+    color: #fff;
+}
+.c8-img{
+    width: 310px;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+}
+.c8-cards{
+    padding: 4vw 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    justify-content: center;
+}
+.c8-card{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.c8-card-p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1vw 0 1vw 1vw;
+}
+.c8-card-h3{
+    padding: 0 0 3vw 1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ====================== Subscribe ======================= */
+
+.container-9{
+    background: rgb(255, 208, 0);
+}
+.c9-text{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6vw 2vw;
+}
+.c9-h2{
+    padding-left: 2vw;
+    padding-top: 2vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c9-input-text{
+    padding: 0 0 0 3vw;
+}
+.c9-input{
+    padding: 1vw 23vw 1vh 1vw;
+    background: rgb(255, 208, 0);
+    border: none;
+    border-bottom: 2px solid #fff;
+    font-size: 18px;
+    color: #2e2e2e;
+    outline: none;
+}
+.c9-button{
+    padding: 1vh 0 0 2vw;
+}
+.c9-btn{
+    background-color: rgb(13, 14, 68);
+    color: rgb(255, 208, 0);
+    padding: 12px 20px;
+    outline: none;
+    border: 2px solid rgb(13, 14, 68);
+    border-radius: 20px;
+}
+.c9-btn:hover{
+    background-color: rgb(255, 208, 0);
+    color: rgb(13, 14, 68);
+    border: 2px solid rgb(13, 14, 68);
+    transition: 0.5s ease-in-out;
+}
+
+/* ====================== Footer ======================= */
+
+.footer-container{
+    background-color: rgb(13, 14, 68);
+}
+.footer-text{
+    text-align: center;
+    justify-content: center;
+}
+.f-img{
+    padding: 2vw 0;
+}
+.footer-p{
+    color: #b3a6a6;
+    font-size: 18px;
+    padding-bottom: 2vw;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
+    color: #fff;
+    gap: 2vw;
+}
+.link-1{
+    background-color: rgb(73, 127, 228);
+    padding: 10px 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.link-2{
+    background-color: rgb(78, 177, 216);
+    padding: 12px 13px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.link-3{
+    background-color: rgb(73, 127, 228);
+    padding: 12px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.link-4{
+    background-color: rgb(233, 6, 6);
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.link-1:hover{
+    background-color: transparent;
+    border: 1px solid rgb(73, 127, 228);
+}
+.link-2:hover{
+    background-color: transparent;
+    border: 1px solid rgb(78, 177, 216);
+}
+.link-3:hover{
+    background-color: transparent;
+    border: 1px solid rgb(73, 127, 228);
+}
+.link-4:hover{
+    background-color: transparent;
+    border: 1px solid rgb(233, 6, 6);
+}
+
+/* ====================== Responsive ======================= */
+
+@media (max-width: 900px){
+    nav .menu-btn i{
+        display: block;
+    }
+    #click:checked ~ .menu-btn i:before{
+        content: "\f00d";
+    }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: rgb(13, 14, 68);
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+        left: 0;
+    }
+    nav ul li{
+        margin: 15px 0;
+    }
+    nav ul li a{
+        font-size: 20px;
+        display: block;
+    }
+    nav ul li a:hover,
+    nav ul li a.active{
+    color: rgb(0, 225, 255);
+    background: none;
+}
+}
+
+@media(max-width: 780px){
+    .c-h1{
+        padding-top: 1vw;
+        font-size: 5vw;
+    }
+    .c4-about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .c4-a-image{
+        display: flex;
+        padding-right: 30px;
+    }
+    .c4-a-h1{
+        font-size: 4vw;
+    }
+    .c4-a-p{
+        font-size: 2.5vw;
+    }
+    .c4-a-p1{
+        font-size: 2.5vw;
+    }
+    .c5-h1{
+        font-size: 25px;
+    }
+    .c8-cards{
+        gap: 5vw;
+    }
+    .c9-h2{
+        padding-bottom: 2vw;
+    }
+    .icon{
+        font-size: 6vw;
+    }
+}
+
+@media(max-width: 550px){
+    .button{
+        padding-top: 5vw;
+    }
+    .c2-cards{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10vw 12vw;
+    }
+    .c-h1{
+        padding-top: 2vw;
+        font-size: 8vw;
+    }
+    .container-1{
+        height: 70vw;
+    }
+    .h1{
+        font-size: 7vw;
+    }
+    .p{
+        font-size: 10px;
+    }
+    .c2-image{
+        padding-top: 8vw;
+    }
+    .c3-image{
+        padding-top: 8vw;
+    }
+    .c4-image{
+        padding-top: 8vw;
+    }
+    .container-2{
+        padding-bottom: 3vw;
+    }
+    .container-3{
+        padding-bottom: 3vw;
+    }
+    .c3-top-p{
+        font-size: 2.5vw;
+    }
+    .c4-about{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 2vw;
+    }
+    .c4-a-image{
+        padding-left: 10vw;
+    }
+    .c4-a-img{
+        width: 400px;
+        height: 200px;
+        background-size: cover;
+    }
+    .c4-a-h1{
+        font-size: 5vw;
+    }
+    .c4-a-p{
+        font-size: 3vw;
+    }
+    .c4-a-p1{
+        font-size: 3vw;
+    }
+    .c4-a-button{
+        padding-top: 4vw;
+        text-align: center;
+        justify-content: center;
+    }
+    .c4-a-btn{
+        font-size: 3vw;
+    }
+    .c5-h1{
+        font-size: 25px;
+    }
+    .c7-h1{
+        font-size: 20px;
+    }
+    .c7-p{
+        font-size: 12px;
+    }
+    .c7-btn{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .c8-h1{
+        padding-top: 2vw;
+        font-size: 8vw;
+    }
+    .c9-button{
+        padding-top: 5vw;
+    }
+    .icon{
+        font-size: 10vw;
+    }
+    .icon-1{
+        background-image: url("https://png.pngitem.com/pimgs/s/79-794594_collection-of-transparent-printable-big-number-1-hd.png");
+        color: lightskyblue;
+    }
+    .footer-links{
+        padding: 3vw 0;
+    }
+}
+
+@media (max-width: 450px){
+    .c4-a-img{
+        width: 200px;
+        height: 100px;
+    }
+    .c4-a-image{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 350px){
+    .tech-img{
+        display: flex;
+        flex-direction: column;
+    }
+}
